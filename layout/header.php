@@ -15,13 +15,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<header class="header border-b-2 border-white item-center px-8 py-4 flex! flex-row justify-between" >
-<a href="../index.php"><h1 class="title is-1 flex gap-4  "><i class="fa-solid fa-user-astronaut" style="color: #FFD43B;"></i>People <span class="text-xl self-end">inc.</span></h1></a>
+<header class="header border-b-2 border-white item-center px-8 py-4 flex! flex-row justify-between fixed z-99 w-[100%] bg-[#14161a]" >
+<a href="../index.php"><h1 class="title is-1 flex gap-4  " title="home"><i class="fa-solid fa-user-astronaut" style="color: #FFD43B;"></i>People <span class="text-xl text-[#FFD43B] self-end">inc.</span></h1></a>
 <nav class="navbar flex! items-center! ">
     <ul class="flex gap-4">
-    <li><a href="../ourPeople.php" class="capitalize text-white! text-2xl hover:underline!">our people</a></li>
-        <li><a href="#" class="capitalize text-white! text-2xl hover:underline!">About</a></li>
-        <li><a href="#" class="capitalize text-white! text-2xl hover:underline!">Contact</a></li>
+    <li><a href="../ourPeople.php" class="capitalize text-white! text-2xl hover:underline! hover:text-[#FFD43B]!">our people</a></li>
+        <li><a href="#" class="capitalize text-white! text-2xl hover:underline! hover:text-[#FFD43B]!">About</a></li>
+        <li><a href="#" class="capitalize text-white! text-2xl hover:underline! hover:text-[#FFD43B]!">Contact</a></li>
     </ul>
 </nav>
 </header>

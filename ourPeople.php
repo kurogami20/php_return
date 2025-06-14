@@ -3,6 +3,12 @@
 
 
 <?php require './layout/header.php' ?>
+<nav class="breadcrumb pl-8 pt-4 " aria-label="breadcrumbs">
+  <ul>
+    <li><a href="./index.php" class="text-[#ffd43b]!">Home</a></li>
+    <li class="is-active"><a href="./ourPeople.php" aria-current="page" class="text-[#ffe27a]!">Our people</a></li>
+  </ul>
+</nav>
 <section
 class="section">
     <ul class="flex flex-wrap gap-5 p-4 justify-center">
