@@ -16,14 +16,14 @@
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <header class="header border-b-2 border-white item-center px-8 py-4 flex! flex-row justify-between" >
-<h1 class="title is-1 flex gap-4  "><i class="fa-solid fa-user-astronaut" style="color: #FFD43B;"></i>People <span class="text-xl self-end">inc.</span></h1>
+<a href="../index.php"><h1 class="title is-1 flex gap-4  "><i class="fa-solid fa-user-astronaut" style="color: #FFD43B;"></i>People <span class="text-xl self-end">inc.</span></h1></a>
 <nav class="navbar flex! items-center! ">
     <ul class="flex gap-4">
-    <li><a href="#" class="capitalize text-white! text-2xl hover:underline!">our people</a></li>
+    <li><a href="../ourPeople.php" class="capitalize text-white! text-2xl hover:underline!">our people</a></li>
         <li><a href="#" class="capitalize text-white! text-2xl hover:underline!">About</a></li>
         <li><a href="#" class="capitalize text-white! text-2xl hover:underline!">Contact</a></li>
     </ul>
 </nav>
 </header>
 <body>
-<div class="h-screen mx-5">
+<div class="h-full ">

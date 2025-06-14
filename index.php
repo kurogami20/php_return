@@ -1,32 +1,8 @@
-<?php require_once './data/personTab.php';?>
-
-
-
 <?php require './layout/header.php' ?>
 <section
-class="section">
-    <ul class="flex flex-wrap gap-5 p-4 justify-center">
-   <?php foreach($personArray as $person): ?>
-<li><div class="card w-96 ">
- 
-  <div class="card-content">
-    <div class="media">
-      
-      <div class="media-content">
-        <p class="title is-4"><?= htmlspecialchars($person['id'])  ?></p>
-       
-      </div>
-    </div>
-
-    <div class="content">
-      <ul>
-        <li><?= htmlspecialchars($person['city_name'])  ?></li>
-        <li><?= htmlspecialchars($person['zip_code'])  ?></li>
-      </ul>
-    </div>
-  </div>
-</div></li>
-    <?php endforeach; ?>
-</ul>
+class="h-[91vh] bg-[url(./assets/people.png)] bg-center flex! justify-center items-center relative">
+<h2 class="text-white absolute z-10 uppercase text-5xl!">Together, let's build the future !</h2>
+<div class="bg-black/30 w-[100%] h-[100%] absolute top-0 z-0"></div>
 </section>
 <?php require './layout/footer.php' ?>
+
